@@ -1,0 +1,18 @@
+[package]
+name = "rust-health-endpoint"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "heath_endpoint"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+clap = { version = "4.2.4", features = ["derive", "env"] }
+futures = "0.3.28"
+lazy_static = "1.4.0"
+log = "0.4.17"
+tokio = { version = "1.27.0", features = ["full"] }
