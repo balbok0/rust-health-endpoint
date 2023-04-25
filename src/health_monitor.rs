@@ -18,6 +18,7 @@ use tokio::{
 };
 
 
+#[derive(Debug)]
 pub enum HealthStatus {
     HEALTHY,
     UNHEALTHY(String),

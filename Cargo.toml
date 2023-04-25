@@ -1,8 +1,8 @@
 [package]
 name = "rust-health-endpoint"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-description = "Minimal health endpoint for apps running in containerized environments"
+description = "Minimal health (and signal) endpoint for apps running in containerized environments"
 license = "MIT"
 
 [lib]
